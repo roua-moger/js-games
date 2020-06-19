@@ -42,3 +42,22 @@
 h2{
     color: indianred;
 }
+
+.square{ 
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: maroon;
+    margin: 10px;
+}
+.whack{
+    margin-left: 70px;
+}
+.mole{
+    background-image: url('images/mole.jpg');
+    background-size: cover;
+}
+
+.secound{
+    color: slateblue;
+}
