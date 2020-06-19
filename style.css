@@ -1,6 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+*{
+    font-family: 'Sriracha', cursive;
+}
+.memory{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .grid{
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+}
+
+.logo{
+    height: 80px;
+    
+}
+
+.home{
+    background-color: darkseagreen;
+    margin: 10px;
+    padding: 10px 0 10px 0;
+}
+.hover a:hover {
+    color: indianred !important;
+}
+
+.youtube{
+    color: rebeccapurple;
+}
+
+.navbar{
+    margin-bottom: 40px;
+    background-color: blanchedalmond;
+}
+
+h2{
+    color: indianred;
 }

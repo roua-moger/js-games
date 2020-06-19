@@ -10,14 +10,14 @@
 <body>
  <div class="container"> 
      
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse ml-5" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            
             <a class="nav-item nav-link active" href="memory.html">Memory Cards</a>
             <a class="nav-item nav-link" href="whack.html">Whack a mole</a>
             <a class="nav-item nav-link" href="connect-four.html">Connect Four </a>
@@ -29,10 +29,12 @@
           </div>
         </div>
       </nav> 
-    <h3>Score: <span id="result"></span></h3>
+    <h3 class="text-center m-4">Score: <span id="result"></span></h3>
+    <div class="memory">
     <div class="grid">
 
     </div>
+  </div>
 </div> 
 
 <script src="app.js" charset="utf-8"></script>
